@@ -19,6 +19,6 @@ SELECT * FROM users;
 
 CREATE TABLE stars (
     id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
-    image VARCHAR (1000) NOT null,
-    user_id INT NOT null
+    image VARCHAR (125) NOT NULL,
+    user_id INT NOT NULL
 );
