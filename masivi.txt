@@ -1,0 +1,11 @@
+2 masīvu veidi
+
+izveido masīvu ar vērtībām "sarkans", "abols", 120
+$auglis = ["sarkans", "abols", 120];
+print_r($auglis);
+echo "<br>";
+
+pats iedot indeksu, tas pats, kas JS objekts
+associatīvais masīvs color, type, weight
+$auglisAssoc = ["color" => "sarkans", "type" => "abols", "weight" => 120];
+print_r($auglisAssoc);
