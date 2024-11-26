@@ -3,9 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>How many clicks</title>
 </head>
 <body>
-    
+    <h1>Nospied pogu!</h1>
+    <button id="button">Nespied mani!</button>
+    <p>Cik reizes tu nospiedi pogu:</p>
+    <div id="count">0</div>
+
+    <script>
+        let reizes = 0;
+
+        document.getElementById("button").addEventListener("click", function() {
+            reizes++;
+            document.getElementById("count").innerText = reizes;
+        });
+    </script>
 </body>
 </html>
